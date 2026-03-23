@@ -83,3 +83,54 @@ The dataset contains 76 attributes, with 14 commonly used features in most exper
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 pip install -r requirements.txt
+```
+## Usage
+Run the Jupyter Notebook:
+```bash
+jupyter notebook
+```
+Open the file:
+```bash
+Comparative_Analysis_of_Deep_Neural_Networks_for_Cardiovascular_Risk_Prediction.ipynb
+```
+## Results
+- Several tree-based models showed signs of overfitting with very high accuracy
+- Deep learning models demonstrated better generalization in some cases
+- The comparative analysis helped identify more stable and reliable models for prediction
+
+## Research Contribution
+This work was presented at the Sixteenth International Conference on Computing, Communication and Networking Technologies (ICCCNT 2025), held at IIT Indore in association with IEEE.
+[View Certificate](https://drive.google.com/file/d/1ryP_b_AcexCMTMX885WkzTTdod3XBJcb/view)
+
+## Challenges
+- Overfitting in ensemble and tree-based models
+- Data imbalance
+- Feature selection complexity
+
+## Future Work
+- Use larger and more recent datasets
+- Apply cross-validation techniques
+- Perform advanced hyperparameter tuning
+- Deploy as a web application
+- Build a real-time prediction system
+
+## Contributing
+Contributions are welcome.
+```bash
+git checkout -b feature-name
+git commit -m "Add feature"
+git push origin feature-name
+```
+
+## Author
+Kushagra Pandey
+Portfolio: https://kp3000.vercel.app/
+GitHub: https://github.com/theqsharkpandey
+
+## License
+This project is licensed under the MIT License.
+
+
+
+
+
