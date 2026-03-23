@@ -3,14 +3,18 @@ Overview
 
 This project focuses on predicting cardiovascular (heart) disease using multiple machine learning and deep learning models. The objective is to compare different algorithms and identify the most accurate and reliable model for early diagnosis.
 
-The dataset consists of various medical attributes such as age, cholesterol, blood pressure, and other clinical parameters used to predict the presence of heart disease.
+The system uses clinical and medical attributes such as age, cholesterol, and blood pressure to determine the likelihood of heart disease.
 
+Highlights
+Implemented and compared 15+ machine learning and deep learning models
+Conducted detailed performance evaluation and model comparison
+Presented this work at ICCCNT 2025 (IEEE), IIT Indore
 Features
-Implementation of 15+ machine learning and deep learning models
-Comparative analysis of model performance
-Evaluation using accuracy, precision, recall, and confusion matrix
+End-to-end machine learning pipeline
 Data preprocessing and feature selection
-Analysis and handling of overfitting
+Model training and evaluation
+Performance comparison across multiple algorithms
+Analysis of overfitting and generalization
 Models Used
 Machine Learning Models
 Logistic Regression
@@ -27,39 +31,54 @@ Deep Learning Models
 Artificial Neural Networks (ANN)
 Deep Neural Networks (DNN)
 Dataset
-Source: UCI Heart Disease Dataset (1988)
-Databases included:
+
+The project uses the UCI Heart Disease Dataset (1988), which consists of four databases:
+
 Cleveland
 Hungary
 Switzerland
 Long Beach V
-Total attributes: 76
-Commonly used features: 14
-Target Variable
-0 → No heart disease
-1 → Presence of heart disease
+
+The dataset contains 76 attributes, with 14 commonly used features in most experiments.
+
+The target variable indicates the presence of heart disease:
+
+0 → No disease
+1 → Disease present
 Tech Stack
-Language: Python
-Libraries:
+Python
 NumPy
 Pandas
 Scikit-learn
 TensorFlow / Keras
-Matplotlib / Seaborn
+Matplotlib
 Installation
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 pip install -r requirements.txt
 Usage
+
+Run the Jupyter Notebook:
+
 jupyter notebook
 
-Open the notebook:
+Open the file:
 
 Comparative_Analysis_of_Deep_Neural_Networks_for_Cardiovascular_Risk_Prediction.ipynb
 Results
-Several tree-based models showed overfitting (accuracy close to 1.0)
-Deep learning models demonstrated better generalization in some cases
-Comparative evaluation helped identify more stable models
+
+Several tree-based models showed signs of overfitting with very high accuracy.
+
+Deep learning models demonstrated better generalization in some cases.
+
+The comparative analysis helped identify more stable and reliable models for prediction.
+
+Research Contribution
+
+This work was presented at the Sixteenth International Conference on Computing, Communication and Networking Technologies (ICCCNT 2025), held at IIT Indore in association with IEEE.
+
+View Certificate
+
 Challenges
 Overfitting in ensemble and tree-based models
 Data imbalance
@@ -77,6 +96,13 @@ Contributions are welcome.
 git checkout -b feature-name
 git commit -m "Add feature"
 git push origin feature-name
+Author
+
+Kushagra Pandey
+Portfolio: https://kp3000.vercel.app/
+
+GitHub: https://github.com/theqsharkpandey
+
 License
 
 This project is licensed under the MIT License.
